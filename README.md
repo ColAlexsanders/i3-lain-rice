@@ -1,6 +1,6 @@
 # (Work In Progress)
 
-##My arch linux lain rice 
+## My arch linux lain rice 
 
 **A modified version of the dotfiles salteax provided on reddit post**
 
