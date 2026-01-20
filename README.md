@@ -1,7 +1,8 @@
-# My arch linux lain rice
-**Those are my linux dotfiles.**
+# (Work In Progress)
 
-![my rice](https://i.redd.it/47f4n8ctcb371.png)
+##My arch linux lain rice 
+
+**A modified version of the dotfiles salteax provided on reddit post**
 
 **Stuff im using on my system:**
 - i3
@@ -9,10 +10,10 @@
 - picom
 - pywal (for the color scheme based on my wallpaper)
 - rofi
-- ranger
 - thunar
-- wpgtk (for the color scheme based on my wallpaper for all gtk applications)
-- brave
+- themix/oomox (for wallpaper GTK colorscheme)
+- firefox
+- nvim
 
 **Raw wallpaper:**
 ![raw_wallpaper](https://i.imgur.com/lkiEgoT.jpg)
