@@ -1,0 +1,21 @@
+set $wallpaper /home/alex/Pictures/Wallpapers/lain_cross.jpeg
+
+set $background #000000
+set $foreground #e8bac2
+
+set $color0 #000000
+set $color1 #A05969
+set $color2 #C16B7E
+set $color3 #BD7A80
+set $color4 #CE7688
+set $color5 #BE8F86
+set $color6 #CC8F8D
+set $color7 #e8bac2
+set $color8 #a28287
+set $color9 #A05969
+set $color10 #C16B7E
+set $color11 #BD7A80
+set $color12 #CE7688
+set $color13 #BE8F86
+set $color14 #CC8F8D
+set $color15 #e8bac2

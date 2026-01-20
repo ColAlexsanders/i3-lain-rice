@@ -1,0 +1,43 @@
+---
+header-includes:
+- \usepackage{enumitem}
+- \usepackage{graphicx}
+
+# item list management
+- \setlist[itemize]{nosep}
+- \setlist[enumerate]{nosep}
+- \setlist[itemize,1]{leftmargin=*}
+- \setlist[itemize,2]{leftmargin=*}
+- \setlist[itemize,3]{leftmargin=*}
+- \setlist[itemize,4]{leftmargin=*}
+- \setlist[itemize,5]{leftmargin=*}
+- \setlist[itemize,6]{leftmargin=*}
+- \setlist[enumerate,1]{leftmargin=*}
+- \setlist[enumerate,2]{leftmargin=*}
+- \setlist[enumerate,3]{leftmargin=*}
+- \setlist[enumerate,4]{leftmargin=*}
+- \setlist[enumerate,5]{leftmargin=*}
+- \setlist[enumerate,6]{leftmargin=*}
+
+# basic font setup
+- \usepackage{fontspec}
+- \setsansfont{DejaVuSans}
+- \setmainfont[BoldFont={TIMESBD.ttf}, ItalicFont={TIMESI.ttf}, BoldItalicFont={TIMESBI.TTF}]{TIMES.ttf}
+
+# minimal Japanese support
+- \usepackage{ruby}
+- \renewcommand{\rubysep}{-0.5ex}
+
+geometry: 
+- margin=2cm
+fontsize: 12pt
+
+toc: false
+numbersections: false
+
+highlight-style: tango
+
+ignore-viewer-state: false
+
+mathfont: null
+...

@@ -1,3 +1,23 @@
-configuration {
-theme: "~/.cache/wal/colors-rofi-dark.rasi";
+@theme "~/.cache/wal/colors-rofi-dark.rasi"
+
+element-text {
+    background-color: inherit;
+    text-color: inherit;
 }
+
+element-icon {
+    background-color: inherit;
+}
+
+element {
+  orientation: horizontal;
+  children: [ element-icon, element-text ];
+  spacing: 40px;
+}
+
+configuration {
+  show-icons:         true;
+  font: "Hack Nerd Font 12";
+  markup-rows: true;
+}
+

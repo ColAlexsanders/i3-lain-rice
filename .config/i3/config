@@ -1,4 +1,4 @@
-##########
+
 #   i3   #
 ##########
 
@@ -6,11 +6,13 @@
 set $mod Mod4
 
 # Font
-font pango:Hack Nerd Font 14
+font pango:Hack Nerd Font 12
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
+
+exec --no-startup-id clipit
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -23,13 +25,18 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec alacritty
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+q kill
+
+bindsym $mod+e exec thunar
 
 # start rofi
 bindsym $mod+d exec exec rofi run -show drun -font 'Hack Nerd Font 12'
+
+# start web browser
+bindsym $mod+b exec firefox
 
 # change focus
 bindsym $mod+j focus left
@@ -212,13 +219,13 @@ client.background       $bg
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # alt-tab window switcher
-set $i3t_alt_tab        /home/paul/.config/i3/i3-alt-tab.py n #all
-set $i3t_alt_shift_tab  /home/paul/.config/i3/i3-alt-tab.py p #all
+set $i3t_alt_tab        /home/alex/.config/i3/i3-alt-tab.py n #all
+set $i3t_alt_shift_tab  /home/alex/.config/i3/i3-alt-tab.py p #all
 bindsym Mod1+Tab exec   exec $i3t_alt_tab
 bindsym Mod1+Shift+Tab  exec $i3t_alt_shift_tab
 
 # Display wallpaper
-exec_always feh --bg-fill --randomize /stuff/images/wallpapers/
+exec_always feh --bg-fill ~/Pictures/Wallpapers/lain_cross.jpeg
 
 # Window compositor
 exec_always picom -f
@@ -227,5 +234,5 @@ exec_always picom -f
 exec_always wal -R
 
 # Monitor display settings
-exec_always xrandr --output DVI-D-1 --mode 1920x1080 --primary --rate 144.00
-exec_always xrandr --output HDMI-1 --mode 1920x1089 --rate 60.00
+exec_always xrandr --output DVI-D-1 --mode 1920x1080 --rate 144.00
+exec_always xrandr --output HDMI-1 --mode 1920x1080 --primary --rate 120.00

@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/alex/Pictures/Wallpapers/lain_cross.jpeg"
+let background = "#000000"
+let foreground = "#e8bac2"
+let cursor     = "#e8bac2"
+
+" Colors
+let color0  = "#000000"
+let color1  = "#A05969"
+let color2  = "#C16B7E"
+let color3  = "#BD7A80"
+let color4  = "#CE7688"
+let color5  = "#BE8F86"
+let color6  = "#CC8F8D"
+let color7  = "#e8bac2"
+let color8  = "#a28287"
+let color9  = "#A05969"
+let color10 = "#C16B7E"
+let color11 = "#BD7A80"
+let color12 = "#CE7688"
+let color13 = "#BE8F86"
+let color14 = "#CC8F8D"
+let color15 = "#e8bac2"
